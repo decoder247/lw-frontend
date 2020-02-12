@@ -1,0 +1,79 @@
+/* style.css */
+body{
+    background: rgba(232,215,200,1);
+    color: rgba(20,20,20);
+    font-size: 25px;
+    /* font-family: Helvetica; */
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+  }
+  h1{
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgba(47,36,58,1);
+  }
+  
+  #banner{
+    text-align: center;
+    /* background-image: url("images/banner.jpg"); */
+    background-image: url("img/energy.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    animation: slideIn 1000ms ease-in forwards;
+  }
+
+@keyframes slideIn {
+    0% {
+        /* background-position: 50% 50%; */
+        background-position: top;
+    }
+    100% {
+        /* background-position: 100% 100%; */
+        background-position: center;
+    }
+}
+
+  #banner h1 {
+    color: white;
+    font-size: 50px;
+  }
+  #banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  #footer{
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+  #footer a {
+    color: lightgrey;
+    font-size: 15px;
+  }
+  #footer a:hover {
+    color: white;
+  }  
+
+  .card{
+    padding: 50px;
+    font-weight: lighter;
+  }
+  
