@@ -1,5 +1,6 @@
 # Le Wagon HTML/CSS/JS Event
 *[Date: 12th Feb 2020] Introduction to HTML/CSS/JS by building a static webpage*  
+*Taken from: https://landing-page-2hr-workshop-instructions.netlify.com/*
 
 ## Table of Contents
 | Index | Section           |
