@@ -1,8 +1,25 @@
-# Le Wagon HTML/CSS/JS Lesson 200212
-* metadata -> Non-visual data that can be used within the webpage
-* a tag -> anchor tag (link tag)
+# Le Wagon HTML/CSS/JS Event
+*[Date: 12th Feb 2020] Introduction to HTML/CSS/JS by building a static webpage*  
 
-## Different Tags
+## Table of Contents
+| Index | Section           |
+|:-----:|:------------------|
+| 1.    | [General Points](#sec1)   |
+| 2.    | [Example tags](#sec2)   |
+
+---
+## <a name="sec1"></a> 1. General points
+
+What is metadata?
+* Non-visual data that can be used within the webpage
+
+What is a tag?
+* anchor tag (link tag)
+
+What is a CSS selector?
+* Denotes, '*selects*', which style to define or manipulate
+
+## <a name="sec2"></a> 2. Examples of different tags
 
 1. \<h1> header tags
 2. \<p> Paragraph tags
