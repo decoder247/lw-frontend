@@ -1,64 +1,84 @@
 <html>
-<!-- This is the head, where intelligence is -->
+<!--  -->
 
+<!-- This is the head, where intelligence is -->
 <head>
+    <!-- Metadata and title usually reside in the head -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ivan's first website!</title>
+
+    <!-- Links the named resource to the resource url. In this case, the stylesheet! -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel='stylesheet' href='style.css'>
 </head>
+
 <!-- This is the body, where text and content is -->
-
 <body>
-    <div class="banner">
-        <h2><b>This is the first section:</b></h2>
-        <p>This is some description using the pargraph font.</p>
-        <a href="#">Click here to learn more</a>
-    </div>
-    <br>
-    <br>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="banner">
-                    <img src="img/solar.svg" alt="Picture of solar panel" width="100">
-                    <h2>Solar Energy</h2>
-                    <p>This is a very <strong>SUNNY</strong> picture</p>
-                </div>
-            </div>
+    <!-- Banner section -->
+    <div id="banner">
+        <h2><b>Welcome to Ivan's first website!</b></h2>
+        <p>This is some description using the pargraph font.</p> <br><br>
+        <div class="btn btn-primary">
+            <a href="#">Click here to learn more</a>
         </div>
     </div>
 
-    <div class="cardtile">
-        <img src="img/wind.svg" alt="picture description" width="100">
-        <h2>Wind Turbines</h2>
-        <p>Invest in <strong>Wind Power</strong> app</p>
+    <div class="container">
+        <div class="row">
+            <!-- Solar img -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="cardtile">
+                    <img src="img/solar.svg" alt="Picture of solar panel" width="100">
+                    <h2>Solar Energy</h2>
+                    <p>This is a very <strong>SUNNY</strong> picture</p>
+                </div>    
+            </div>
+
+            <!-- Wind img -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="cardtile">
+                    <img src="img/wind.svg" alt="picture description" width="100">
+                    <h2>Wind Turbines</h2>
+                    <p>Invest in <strong>Wind Power</strong> app</p>
+                </div>
+            </div>
+
+            <!-- Bio img -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="cardtile">
+                    <img src="img/bio.svg" alt="picture description" width="100">
+                    <h2>Plant Bio Fuel</h2>
+                    <p>Invest in <strong>Bio Fuel Farms</strong> app</p>
+                </div>
+            </div>
+            
+            <!-- Bulb img -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="cardtile">
+                    <img src="img/bulb.svg" alt="picture description" width="100">
+                    <h2>Sell Green Energy</h2>
+                    <p>Earn intrest on the <strong>power sold</strong> app</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="cardtile">
-        <img src="img/bio.svg" alt="picture description" width="100">
-        <h2>Plant Bio Fuel</h2>
-        <p>Invest in <strong>Bio Fuel Farms</strong> app</p>
-    </div>
-
-    <div class="cardtile">
-        <img src="img/bulb.svg" alt="picture description" width="100">
-        <h2>Sell Green Energy</h2>
-        <p>Earn intrest on the <strong>power sold</strong> app</p>
-    </div>
-
-    <div class="footer">
-        <ul>
+    <!-- Footer section -->
+    <div id="footer">
+        <p>Social Media Links:</p>
+        <ul class="list-inline">
             <!-- i class is icon class! -->
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
         </ul>
-        <p>this is a footer</p>
     </div>
 </body>
 
